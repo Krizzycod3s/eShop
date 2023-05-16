@@ -8,7 +8,7 @@ const path = require("path");
 
 app.use(
   cors({
-    origin: "https://eshop-client.onrender.com/",
+    origin: "https://eshop-client.onrender.com",
     credentials: true,
   })
 );
